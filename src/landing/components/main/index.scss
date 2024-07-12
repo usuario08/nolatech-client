@@ -135,3 +135,91 @@
         width: 35%;
     }
 }
+
+.four-card {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+
+    .four-card-content {
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: wrap;
+        justify-content: center;
+        align-items: center;
+        gap: 15%;
+
+        .four-card-file {
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+        }
+    }
+
+    .btn-four-card {
+        padding: 16px;
+        border: none;
+        color: white;
+        background-color: #3FFA53;
+        border-radius: 10px;
+        font-size: 24px;
+        padding-left: 46px;
+        padding-right: 46px;
+        font-weight: bold;
+    }
+}
+
+.five-card {
+    margin-top: 5%;
+    display: flex;
+    flex-direction: row;
+    justify-content: end;
+    height: 100%;
+
+    .form-five-card {
+        display: flex;
+        flex-direction: column;
+        width: 50%;
+        gap: 5%;
+
+        .input-form-basic {
+            border: none;
+            border-radius: 10px;
+            margin: 2%;
+            height: 45px;
+            padding-left: 16px;
+        }
+
+    }
+}
+
+.six-card {
+    display: flex;
+    flex-direction: row;
+    height: 100%;
+    min-height: 600px;
+}
+
+.seven-card{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 5%;
+    background-color: green;
+}
+
+.btn-standar {
+    padding: 16px;
+    border: none;
+    color: white;
+    background-color: #3FFA53;
+    border-radius: 10px;
+    font-size: 24px;
+    padding-left: 46px;
+    padding-right: 46px;
+    font-weight: bold;
+}
